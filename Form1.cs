@@ -16,5 +16,10 @@ namespace TesteGit
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cadastro realizado com sucesso!", "Aviso do sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
